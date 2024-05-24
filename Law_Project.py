@@ -77,8 +77,8 @@ class Court():
 
 
 
-prisoner1= Prisoner("omer", "uziel") # omer is'nt the shtinker
-prisoner2= Prisoner("paz", "bazak") # paz is the shtinker 
+prisoner1= Prisoner("omer", "uziel")
+prisoner2= Prisoner("paz", "bazak") 
 judge= Judge("eyal", "golan")
 court = Court(judge, prisoner1, prisoner2)
 court.trial()
